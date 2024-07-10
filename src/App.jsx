@@ -7,7 +7,7 @@ import Home from './home'
 import BayerForm from './bayerForm'
 
 function App() {
-  const [page, setPage] = useState('bayerForm')
+  const [page, setPage] = useState('home')
 
   if(page === 'home')
     return <Home />
